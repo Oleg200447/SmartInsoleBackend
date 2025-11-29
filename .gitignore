@@ -1,3 +1,9 @@
 **/.ipynb_checkpoints
 
 scr/step_counter/pictures
+
+env/
+
+*.mtl
+
+foot.blend
