@@ -34,7 +34,7 @@ def load_obj_with_materials(path):
 # Загружаем OBJ с кэшем
 # ============================================
 
-obj_path = "foot1.obj"
+obj_path = "../../objects/foot1.obj"
 
 @st.cache_data
 def load_obj_cached(path):
