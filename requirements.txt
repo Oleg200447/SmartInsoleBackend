@@ -1,0 +1,16 @@
+# Smart Insole Backend Dependencies
+
+# Web Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# Data Validation
+pydantic>=2.5.0
+
+# Data Processing
+numpy>=1.24.0
+scipy>=1.11.0
+pandas>=2.0.0
+
+# Utilities
+python-multipart>=0.0.6

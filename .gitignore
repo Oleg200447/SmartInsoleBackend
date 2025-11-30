@@ -1,11 +1,71 @@
-**/.ipynb_checkpoints
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-scr/step_counter/pictures
-
+# Virtual environments
+venv/
 env/
+insole-venv/
+.venv/
 
-*.mtl
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
 
-foot.blend
+# Jupyter
+**/.ipynb_checkpoints/
+*.ipynb_checkpoints
 
+# Project specific
+scr/step_counter/pictures/
 datasets/
+objects/
+
+# Database
+data/*.db
+*.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Docker
+.docker/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Blender
+*.blend
+*.mtl
